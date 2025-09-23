@@ -193,3 +193,5 @@ networks:
   ssrf_proxy_network:
     driver: bridge
     internal: true
+  dify-firecrawl-net:
+    external: true
